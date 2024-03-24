@@ -30,9 +30,12 @@ int main()
       withdrawAmount();
       break;
     case 4:
-      changePin();
+      getTransactionHistory();
       break;
     case 5:
+      changePin();
+      return 0;
+    case 6:
       exitMenu();
       return 0;
     default:
